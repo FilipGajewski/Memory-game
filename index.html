@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="utf-8">
+	<title>Breaking Bad Memory Game</title>
+	<meta name="description" content="Tile memory game with Breaking Bad charachters">
+	<meta name="author" content="Filip Gajewski">
+	<meta http-equiv="X-Ua-Compatible" content="IE=edge, chrome=1">
+	
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Lobster&amp;subset=latin-ext" rel="stylesheet">
+	
+	<!--[if lt IE 9]>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<![endif]-->
+</head>
+<body onload="changeSlide()">
+	<header>
+		<h1>Breaking Bad</h1>
+		
+		<p>Gme based on <a href="https://www.filmweb.pl/serial/Breaking+Bad-2008-430668" target="_blank">sfdsf fgsfgsg</a></p>
+	</header>
+	
+	<main>
+		<article>
+			<div class ="container">
+				<div class="startMenu">
+					<div class="slider"></div>
+					<div class="difficulty" onclick="startGame(12)">Simple</div>
+					<div class="difficulty" onclick="startGame(20)">Normal</div>
+					<div class="difficulty" onclick="startGame(28)">Hard</div>
+					<div style="clear:both;"></div>
+				</div>
+			</div>
+		</article>
+	</main>
+	
+	<script src="jquery-3.3.1.min.js"></script>
+	<script src="slider.js"></script>
+	<script src="game.js"></script>
+</body>
+</html>

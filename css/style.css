@@ -1,0 +1,154 @@
+body
+{
+	color: #fff;
+	background-color: #093009;
+	font-family: 'Heart Breaking Bad';
+	font-size: 48px;
+	margin: 0;
+}
+
+h1
+{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	font-size: 110px;
+}
+
+p
+{
+	text-align: center;
+	font-size: 40px;
+	margin-top: 5px;
+	margin-bottom: 40px;
+}
+
+.container
+{
+	width: 100%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+.startMenu
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.timer
+{
+	font-family: 'Lobster', sans-serif;
+	font-size: 36px;
+	width: 200px;
+	display: inline-block;
+	position: absolute;
+	left: 10%;
+	top: 100px;
+}
+
+.board
+{
+	width: 1000px;
+	display: inline-block;
+}
+
+.counter
+{
+	font-family: 'Lobster', sans-serif;
+	font-size: 36px;
+	width: 200px;
+	display: inline-block;
+	position: absolute;
+	top: 100px;
+	right: 10%;
+}
+
+.card
+{
+	width: 125px;
+	height: 125px;
+	display: inline-block;
+	margin: 3px;
+	background-image: url("../img/back.png");
+	border-radius: 8px;
+	cursor: pointer;
+	filter: brightness(70%);
+	border: solid 4px white;
+	transition: all .3s ease-in-out;
+}
+
+.card:hover
+{
+	filter: brightness(100%);
+}
+
+.difficulty
+{
+	float: left;
+	cursor: default;
+	width: 140px;
+	margin-left: 96px;
+	margin-right: 96px;
+}
+
+.difficulty:hover
+{
+	cursor: pointer;
+	color: #00bfff;
+}
+
+.slider
+{
+	width: 600px;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	margin-bottom: 100px;
+	border: #A9A9A9 4px solid;
+	border-radius: 4px;
+}
+
+.back
+{
+	width: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.back:hover
+{
+	cursor: pointer;
+	color: #00bfff;
+}
+
+.reset:hover
+{
+	cursor: pointer;
+	color: #00bfff;
+}
+
+a:link
+{
+	color: #fff;
+	text-decoration: none;
+}
+
+a:visited
+{
+	color: #fff;
+}
+
+a:active
+{
+	color: #fff;
+}
+
+a:hover
+{
+	color: #00bfff;
+}
